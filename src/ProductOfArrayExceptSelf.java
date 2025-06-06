@@ -46,7 +46,7 @@ public class ProductOfArrayExceptSelf {
     }
 
     // O(n^2)
-    public static int[] productExceptSelf2(int[] nums) {
+    public static int[] productExceptSelf3(int[] nums) {
         int n = nums.length;
         int[] result = new int[n];
 
